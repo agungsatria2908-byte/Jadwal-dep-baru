@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ec">
+  <title>Jadwal Kuliah DEP 1B | Poliwangi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="identity">
+      <span class="logo">DEP</span>
+      <span>
+        <strong>DESTINASI PARIWISATA</strong>
+        <small>POLITEKNIK NEGERI BANYUWANGI</small>
+      </span>
+    </a>
+    <span class="class-label">KELAS 1B</span>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <div class="batik-line"></div>
+      <p class="eyebrow">JADWAL PERKULIAHAN · SEMESTER 1</p>
+      <h1>Ruang Kuliah <span>DEP 1B.</span></h1>
+      <p class="intro">
+        Pilih hari untuk melihat jadwal, lalu tekan mata kuliah
+        untuk mengetahui detail dosen dan ruangannya.
+      </p>
+      <div class="local-tag">✦ Banyuwangi · Alam, Budaya & Pariwisata</div>
+    </section>
+
+    <section class="schedule-section">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">WEEKLY SCHEDULE</p>
+          <h2>Jadwal kuliah</h2>
+        </div>
+        <span class="total-label">Senin — Kamis</span>
+      </div>
+
+      <div class="day-tabs" role="group" aria-label="Pilih hari kuliah">
+        <button class="day-btn active" data-day="senin">Senin</button>
+        <button class="day-btn" data-day="selasa">Selasa</button>
+        <button class="day-btn" data-day="rabu">Rabu</button>
+        <button class="day-btn" data-day="kamis">Kamis</button>
+      </div>
+
+      <div class="schedule-layout">
+        <div class="lesson-area">
+          <div class="day-heading">
+            <div>
+              <p class="eyebrow">JADWAL HARI INI</p>
+              <h3 id="selected-day">Senin</h3>
+            </div>
+            <span id="lesson-count" class="count-badge">2 mata kuliah</span>
+          </div>
+
+          <div id="lesson-list" class="lesson-list">
+            <!-- Diisi oleh JavaScript -->
+          </div>
+        </div>
+
+        <aside class="detail-panel" id="detail-panel" aria-live="polite">
+          <div class="detail-icon">✦</div>
+          <p class="eyebrow">DETAIL PERKULIAHAN</p>
+          <h3 id="detail-title">Pilih mata kuliah</h3>
+          <p id="detail-description" class="detail-description">
+            Tekan salah satu mata kuliah di sebelah kiri untuk melihat
+            informasi lengkapnya.
+          </p>
+
+          <div class="detail-divider"></div>
+
+          <div class="detail-row">
+            <span>◷</span>
+            <div>
+              <small>Waktu</small>
+              <strong id="detail-time">Belum dipilih</strong>
+            </div>
+          </div>
+
+          <div class="detail-row">
+            <span>♧</span>
+            <div>
+              <small>Dosen</small>
+              <strong id="detail-lecturer">Belum dipilih</strong>
+            </div>
+          </div>
+
+          <div class="detail-row">
+            <span>⌂</span>
+            <div>
+              <small>Ruangan</small>
+              <strong id="detail-room">Belum dipilih</strong>
+            </div>
+          </div>
+
+          <div class="detail-note">
+            <span>INFO</span>
+            <p>Periksa kembali informasi perkuliahan jika ada perubahan jadwal.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="culture-strip">
+      <div class="batik-symbol">✳</div>
+      <div>
+        <p class="eyebrow">IDENTITAS LOKAL</p>
+        <h2>Belajar di Banyuwangi.</h2>
+        <p>
+          Mengenal destinasi, menjaga budaya, dan membangun masa depan pariwisata.
+        </p>
+      </div>
+      <div class="culture-pattern" aria-hidden="true">
+        <span>✳</span><span>◇</span><span>✳</span><span>◇</span><span>✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span><strong>DEP 1B</strong> · D4 Destinasi Pariwisata</span>
+    <span>Politeknik Negeri Banyuwangi</span>
+  </footer>
+</body>
+</html>
+  
